@@ -48,6 +48,8 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="halcyon" />
 
   <!-- External -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="halcyon-gitlab" />
+
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="external_selinux" remote="halcyon" />
 
@@ -120,6 +122,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
 
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="halcyon" />
 
   <!-- Packages Services -->
   <remove-project name="platform/packages/services/Telecomm" />
