@@ -118,6 +118,9 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom,waipio-vendor" remote="halcyon" />
 
   <!-- Packages Apps -->
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
+
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
 
@@ -159,6 +162,9 @@
 
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
+
+  <remove-project name="platform/system/update_engine" />
+  <project path="system/update_engine" name="system_update_engine" remote="halcyon" />
 
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="system_vold" remote="halcyon" />
