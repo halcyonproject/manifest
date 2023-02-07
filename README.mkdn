@@ -1,0 +1,22 @@
+# Halcyon - Tithonia Alpha
+
+Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
+
+## Building Halcyon
+
+### Requirements
+- Decent machine to compile Android.
+- Knowledge of building Android. [Learn More](https://source.android.com/docs/setup/build/building)
+
+### Downloading Halcyon source code
+```
+repo init -u https://github.com/hlcynprjct/manifest -b tithonia
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
+### Build Halcyon for selected device
+```
+source build/envsetup.sh
+lunch halcyon_DEVICE-userdebug
+make carthage -j$(nproc --all)
+```
