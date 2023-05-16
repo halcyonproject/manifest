@@ -1191,6 +1191,7 @@
 
   <!-- Track Halcyon and other projects repository -->
   <include name="xml/halcyon.xml" />
+  <include name="xml/qcom.xml" />
   <include name="xml/other.xml" />
   
   </manifest>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Root -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -51,5 +59,34 @@
 
   <!-- External -->
   <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
 
-  </manifest>
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/libhardware" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
+
+</manifest>

@@ -10,13 +10,6 @@
            revision="tithonia" />
 
   <!-- Root -->
-  <remove-project name="platform/art" />
-  <project path="art" name="art" remote="halcyon" />
-
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="bionic" remote="halcyon" />
-
-  <remove-project name="platform/build" />
   <project path="build/make" name="build_make" remote="halcyon" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -27,148 +20,67 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <remove-project name="platform/build/soong" />
   <project path="build/soong" name="build_soong" remote="halcyon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <remove-project name="platform/libcore" />
-  <project path="libcore" name="libcore" remote="halcyon" />
-
-  <!-- Bootable -->
-  <remove-project name="platform/bootable/recovery" />
+  <project path="art" name="art" remote="halcyon" />
+  <project path="bionic" name="bionic" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
+  <project path="libcore" name="libcore" remote="halcyon" />
 
   <!-- Device -->
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="halcyon" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="halcyon" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="halcyon" />
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="halcyon" />
 
   <!-- External -->
-  <project path="external/faceunlock" name="external_faceunlock" remote="halcyon-gitlab" />
-
-  <remove-project name="platform/external/selinux" />
-  <project path="external/selinux" name="external_selinux" remote="halcyon" />
-
-  <remove-project name="platform/external/tinycompress" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="halcyon" />
-
   <project path="external/bash" name="external_bash" remote="halcyon" />
+  <project path="external/dwarves" name="external_dwarves" remote="halcyon"/>
   <project path="external/exfatprogs" name="external_exfatprogs" remote="halcyon" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="halcyon-gitlab" />
   <project path="external/htop" name="external_htop" remote="halcyon" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
   <project path="external/libncurses" name="external_libncurses" remote="halcyon" />
   <project path="external/nano" name="external_nano" remote="halcyon" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="halcyon" />
+  <project path="external/selinux" name="external_selinux" remote="halcyon" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="halcyon" />
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
-
-  <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
-
-  <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
-
-  <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="halcyon" />
 
   <!-- Hardware -->
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="halcyon" />
   <project path="hardware/halcyon/interfaces" name="hardware_halcyon_interfaces" remote="halcyon" />
-
-  <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="halcyon" />
 
-  <!-- Hardware - Qualcomm -->
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="halcyon"  >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
-    <!-- add guards for Pixel kernel modules -->
-    <linkfile src="os_pickup.bp" dest="kernel/google/gs101/private/google-modules/Android.bp" />
-    <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
-  </project>
-
-  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" groups="qcom,waipio-vendor" remote="halcyon" />
-  <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" groups="qcom,legacy-qcom" remote="halcyon" />
-  <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="halcyon" />
-  <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" groups="qcom,sdm660" remote="halcyon" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom,waipio-vendor" remote="halcyon" />
-
   <!-- Packages Apps -->
-  <remove-project name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
-
-  <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
-
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="halcyon" />
 
   <!-- Packages Services -->
-  <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="halcyon" />
 
   <!-- Packages Libraries -->
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
 
   <!-- Packages Modules -->
-  <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
-
-  <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
-
-  <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
-
-  <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon" />
 
   <!-- System -->
-  <project path="external/dwarves" name="external_dwarves" remote="halcyon"/>
-
-  <!-- System -->
-  <remove-project name="platform/system/core" />
   <project path="system/core" name="system_core" remote="halcyon" />
-
-  <remove-project name="platform/system/netd" />
   <project path="system/netd" name="system_netd" remote="halcyon" />
-
-  <remove-project name="platform/system/libhidl" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
-
-  <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
-
-  <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="system_update_engine" remote="halcyon" />
-
-  <remove-project name="platform/system/vold" />
   <project path="system/vold" name="system_vold" remote="halcyon" />
   
   <!-- Vendor -->
