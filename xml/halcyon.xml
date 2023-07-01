@@ -66,6 +66,7 @@
 
   <!-- Packages Services -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="halcyon" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="halcyon" />
 
   <!-- Packages Libraries -->
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
