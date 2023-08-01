@@ -10,7 +10,7 @@ Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
 
 ### Downloading Halcyon source code
 ```
-repo init -u https://github.com/hlcynprjct/manifest -b tithonia
+repo init -u https://github.com/halcyonproject/manifest -b tithonia
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 

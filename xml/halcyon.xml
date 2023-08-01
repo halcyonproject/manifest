@@ -2,11 +2,11 @@
 <manifest>
 
   <remote  name="halcyon"
-           fetch="https://github.com/hlcynprjct"
+           fetch="https://github.com/halcyonproject"
            revision="tithonia" />
 
   <remote  name="halcyon-gitlab"
-           fetch="https://gitlab.com/hlcynprjct"
+           fetch="https://gitlab.com/halcyonproject"
            revision="tithonia" />
 
   <!-- Root -->
