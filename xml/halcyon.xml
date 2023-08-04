@@ -63,6 +63,7 @@
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="halcyon" />
 
   <!-- Packages Services -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="halcyon" />

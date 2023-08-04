@@ -1,4 +1,4 @@
-# Halcyon - Tithonia Alpha
+# Halcyon - Tithonia Beta
 
 Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
 
@@ -20,3 +20,9 @@ source build/envsetup.sh
 lunch halcyon_DEVICE-userdebug
 make carthage -j$(nproc --all)
 ```
+## Links
+- [Halcyon Project Documents](https://github.com/halcyonproject/docs)
+- [Halcyon Project Issue Tracker](https://github.com/halcyonproject/docs)
+- [Halcyon Project Telegram Channel](https://t.me/hlcynprjct)
+- [Halcyon Project Telegram Chatroom](https://t.me/hlcynprjctchat)
+- [Halcyon Project Twitter](https://twitter.com/hlcynprjct)
