@@ -84,6 +84,7 @@
   <project path="system/netd" name="system_netd" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
+  <project path="system/timezone" name="system_timezone" remote="halcyon" />
   <project path="system/update_engine" name="system_update_engine" remote="halcyon" />
   <project path="system/vold" name="system_vold" remote="halcyon" />
   
