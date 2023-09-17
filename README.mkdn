@@ -1,4 +1,4 @@
-# Halcyon - Tithonia Beta
+# Halcyon - Tithonia
 
 Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
 
