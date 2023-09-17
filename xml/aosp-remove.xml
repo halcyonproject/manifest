@@ -74,6 +74,7 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
 
   <!-- Packages -->
