@@ -76,6 +76,7 @@
   <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
 
   <!-- Packages Modules -->
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="halcyon" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
