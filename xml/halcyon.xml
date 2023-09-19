@@ -38,6 +38,7 @@
   <project path="external/dwarves" name="external_dwarves" remote="halcyon"/>
   <project path="external/exfatprogs" name="external_exfatprogs" remote="halcyon" />
   <project path="external/faceunlock" name="external_faceunlock" remote="halcyon-gitlab" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="halcyon" />
   <project path="external/htop" name="external_htop" remote="halcyon" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
   <project path="external/libncurses" name="external_libncurses" remote="halcyon" />
