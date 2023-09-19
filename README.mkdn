@@ -21,7 +21,8 @@ lunch halcyon_DEVICE-userdebug
 make carthage -j$(nproc --all)
 ```
 ## Links
-- [Halcyon Project Documents](https://github.com/halcyonproject/docs)
+- [Halcyon Project Webpage](https://hlcyn.me/)
+- [Halcyon Project Wiki](https://wiki.hlcyn.me/)
 - [Halcyon Project Issue Tracker](https://github.com/halcyonproject/docs)
 - [Halcyon Project Telegram Channel](https://t.me/hlcynprjct)
 - [Halcyon Project Telegram Chatroom](https://t.me/hlcynprjctchat)
