@@ -46,6 +46,7 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="halcyon" />
   <project path="external/selinux" name="external_selinux" remote="halcyon" />
   <project path="external/tinycompress" name="external_tinycompress" remote="halcyon" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
