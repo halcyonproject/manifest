@@ -62,6 +62,7 @@
 
   <!-- Packages Apps -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
+  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="halcyon" />
