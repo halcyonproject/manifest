@@ -69,6 +69,9 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="halcyon" />
 
+  <!-- Packages prebuilts -->
+  <project path="packages/prebuilts/NestLaunche" name="packages_prebuilts_NestLauncher" remote="halcyon" />
+
   <!-- Packages Services -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="halcyon" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="halcyon" />
