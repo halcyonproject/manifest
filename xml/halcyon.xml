@@ -3,7 +3,7 @@
 
   <remote  name="halcyon"
            fetch="https://github.com/halcyonproject"
-           revision="tithonia" />
+           revision="ursinia" />
 
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
@@ -29,73 +29,51 @@
   <project path="bionic" name="bionic" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
   <project path="libcore" name="libcore" remote="halcyon" />
-
-  <!-- Device -->
+  
+    <!-- Device -->
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
 
   <!-- External -->
-  <project path="external/bash" name="external_bash" remote="halcyon" />
-  <project path="external/dwarves" name="external_dwarves" remote="halcyon"/>
-  <project path="external/exfatprogs" name="external_exfatprogs" remote="halcyon" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="halcyon-gitlab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="halcyon" />
-  <project path="external/htop" name="external_htop" remote="halcyon" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
-  <project path="external/libncurses" name="external_libncurses" remote="halcyon" />
-  <project path="external/nano" name="external_nano" remote="halcyon" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="halcyon" />
+  <project path="external/libcxx" name="external_libcxx" remote="halcyon" />
+  <project path="external/libnl" name="external_libnl" remote="halcyon" />
+  <project path="external/mksh" name="external_mksh" remote="halcyon" />
   <project path="external/selinux" name="external_selinux" remote="halcyon" />
   <project path="external/tinycompress" name="external_tinycompress" remote="halcyon" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" />
+  <project path="external/zstd" name="external_zstd" remote="halcyon" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
   <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
   <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="halcyon" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="halcyon" />
-
+  
   <!-- Hardware -->
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="halcyon" />
+  <project path="hardware/halcyon/compat" name="hardware_halcyon_compat" remote="halcyon" />
   <project path="hardware/halcyon/interfaces" name="hardware_halcyon_interfaces" remote="halcyon" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="halcyon" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="halcyon" />
 
   <!-- Packages Apps -->
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
-  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="halcyon" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="halcyon" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
-  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="halcyon" />
-
+  
   <!-- Packages prebuilts -->
-  <project path="packages/prebuilts/NestLaunche" name="packages_prebuilts_NestLauncher" remote="halcyon" />
-
-  <!-- Packages Services -->
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="halcyon" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="halcyon" />
-
-  <!-- Packages Libraries -->
-  <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
-  <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
-
-  <!-- Packages Modules -->
-  <project path="packages/modules/adb" name="packages_modules_adb" remote="halcyon" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon" />
+  <project path="packages/prebuilts/PixelLauncher" name="packages_prebuilts_PixelLauncher" remote="halcyon" />
 
   <!-- System -->
+  <project path="system/bpf" name="system_bpf" remote="halcyon" />
   <project path="system/core" name="system_core" remote="halcyon" />
-  <project path="system/netd" name="system_netd" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="halcyon" />
+  <project path="system/netd" name="system_netd" remote="halcyon" />
+  <project path="system/security" name="system_security" remote="halcyon" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
-  <project path="system/timezone" name="system_timezone" remote="halcyon" />
   <project path="system/update_engine" name="system_update_engine" remote="halcyon" />
   <project path="system/vold" name="system_vold" remote="halcyon" />
-  
+
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon" />
