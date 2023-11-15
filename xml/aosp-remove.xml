@@ -97,6 +97,7 @@
   <remove-project name="platform/hardware/libhardware" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
 
