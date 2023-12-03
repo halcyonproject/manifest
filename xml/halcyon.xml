@@ -7,7 +7,7 @@
 
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
-           revision="tithonia" />
+           revision="ursinia" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
@@ -80,7 +80,7 @@
 
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
-  <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon" />
-  <project path="vendor/gms" name="vendor_gms" remote="halcyon-gitlab" clone-depth="1" />
+  <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon"/>
+  <project path="vendor/gms" name="vendor_gms" remote="halcyon-gitlab"/>
 
 </manifest>
