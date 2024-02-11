@@ -105,6 +105,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
