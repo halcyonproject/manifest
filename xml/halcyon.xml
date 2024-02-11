@@ -9,6 +9,10 @@
            fetch="https://gitlab.com/halcyonproject"
            revision="ursinia" />
 
+  <remote  name="halcyon-opencode"
+           fetch="https://www.opencode.net/halcyonproject"
+           revision="ursinia" />
+
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -81,6 +85,6 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon"/>
-  <project path="vendor/gms" name="vendor_gms" remote="halcyon-gitlab"/>
+  <project path="vendor/gms" name="platform/vendor_gms" remote="halcyon-opencode" clone-depth="1"/>
 
 </manifest>
