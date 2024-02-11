@@ -4,8 +4,9 @@
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="halcyon" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="halcyon" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="halcyon" />
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="halcyon" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" remote="halcyon" revision="ursinia-sm8450"/>
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" remote="halcyon" revision="ursinia-sm8550"/>
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="halcyon" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" groups="qcom,sdm660" remote="halcyon" />
@@ -22,6 +23,7 @@
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="halcyon"  >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/bengal/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/bengal/Android.mk" />
@@ -68,7 +70,8 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="halcyon" />
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" groups="qcom" remote="halcyon" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="halcyon" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="halcyon" />
+  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="halcyon" revision="ursinia-sm8450" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="halcyon" revision="ursinia-sm8550" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" groups="qcom,lahaina" remote="halcyon" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" groups="qcom,waipio-vendor" remote="halcyon" />
   <project path="vendor/qcom/opensource/healthd-ext" name="vendor_qcom_opensource_healthd-ext" groups="qcom,lahaina" remote="halcyon" />
