@@ -71,9 +71,6 @@
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="platform/packages_modules_Bluetooth" remote="halcyon-opencode" />
 
-  <!-- Packages Modules -->
-  <project path="packages/modules/Bluetooth" name="platform/packages_modules_Bluetooth" remote="halcyon-opencode" />
-
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
   <project path="system/core" name="system_core" remote="halcyon" />
