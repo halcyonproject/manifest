@@ -5,6 +5,10 @@
            fetch="https://github.com/halcyonproject"
            revision="ursinia" />
 
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-21.0" />
+           
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
            revision="ursinia" />
@@ -39,7 +43,7 @@
 
   <!-- External -->
   <project path="external/gptfdisk" name="external_gptfdisk" remote="halcyon" />
-  <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
+  <project path="external/-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
   <project path="external/libcxx" name="external_libcxx" remote="halcyon" />
   <project path="external/libnl" name="external_libnl" remote="halcyon" />
   <project path="external/mksh" name="external_mksh" remote="halcyon" />
