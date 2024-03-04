@@ -65,6 +65,7 @@
 
   <!-- Packages Apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
+  <project path="packages/apps/FaceUnlock" name="platform/packages_apps_FaceUnlock" remote="halcyon-opencode" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
