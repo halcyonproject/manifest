@@ -13,8 +13,8 @@
            fetch="https://gitlab.com/halcyonproject"
            revision="ursinia" />
 
-  <remote  name="halcyon-opencode"
-           fetch="https://www.opencode.net/halcyonproject"
+  <remote  name="halcyon-gt"
+           fetch="https://gitea.com/halcyonpoject"
            revision="ursinia" />
 
   <!-- Root -->
@@ -65,7 +65,7 @@
 
   <!-- Packages Apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
-  <project path="packages/apps/FaceUnlock" name="platform/packages_apps_FaceUnlock" remote="halcyon-opencode" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gt" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
@@ -74,7 +74,7 @@
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
   
   <!-- Packages Modules -->
-  <project path="packages/modules/Bluetooth" name="platform/packages_modules_Bluetooth" remote="halcyon-opencode" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon-gt" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
@@ -90,6 +90,6 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon"/>
-  <project path="vendor/gms" name="platform/vendor_gms" remote="halcyon-opencode" clone-depth="1"/>
+  <project path="vendor/gms" name="vendor_gms" remote="halcyon-gt" clone-depth="1"/>
 
 </manifest>
