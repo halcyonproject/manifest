@@ -72,6 +72,7 @@
   
   <!-- Packages Libraries -->
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
+  <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
   
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon-gt" />
