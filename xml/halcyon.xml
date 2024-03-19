@@ -14,7 +14,7 @@
            revision="ursinia" />
 
   <remote  name="halcyon-gt"
-           fetch="https://gitea.com/halcyonpoject"
+           fetch="https://gitea.com/halcyonproject"
            revision="ursinia" />
 
   <!-- Root -->
