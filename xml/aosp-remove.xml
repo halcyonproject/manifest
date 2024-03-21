@@ -21,7 +21,6 @@
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
   <remove-project name="device/generic/opengl-transport" />
-  <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/trusty" />
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
@@ -49,12 +48,12 @@
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
-  <remove-project name="device/google/sunfish" />
-  <remove-project name="device/google/sunfish-kernel" />
-  <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/shusky" />
   <remove-project name="device/google/shusky-kernel" />
   <remove-project name="device/google/shusky-sepolicy" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/tangorpro" />
   <remove-project name="device/google/tangorpro-kernel" />
   <remove-project name="device/google/tangorpro-sepolicy" />
@@ -62,7 +61,6 @@
   <remove-project name="device/google/gs101-sepolicy" />
   <remove-project name="device/google/gs201" />
   <remove-project name="device/google/gs201-sepolicy" />
-  <remove-project name="device/google/gs-common" />
   <remove-project name="device/google/pantah" />
   <remove-project name="device/google/pantah-sepolicy" />
   <remove-project name="device/google/pantah-kernel" />
@@ -79,8 +77,6 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/sample" />
-  <remove-project name="device/ti/beagle-x15" />
-  <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External -->
   <remove-project name="platform/external/gptfdisk" />
