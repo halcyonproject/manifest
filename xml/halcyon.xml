@@ -3,7 +3,7 @@
 
   <remote  name="halcyon"
            fetch="https://github.com/halcyonproject"
-           revision="ursinia" />
+           revision="14.2" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
@@ -11,11 +11,11 @@
            
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
-           revision="ursinia" />
+           revision="14.2" />
 
   <remote  name="halcyon-gt"
-           fetch="https://gitea.com/halcyonproject"
-           revision="ursinia" />
+           fetch="https://git.hlcyn.co/halcyonproject"
+           revision="14.2" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
@@ -75,7 +75,9 @@
   <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
   
   <!-- Packages Modules -->
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="halcyon" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon-gt" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gt" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
@@ -85,6 +87,7 @@
   <project path="system/netd" name="system_netd" remote="halcyon" />
   <project path="system/security" name="system_security" remote="halcyon" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="halcyon" />
   <project path="system/update_engine" name="system_update_engine" remote="halcyon" />
   <project path="system/vold" name="system_vold" remote="halcyon" />
 
