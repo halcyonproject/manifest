@@ -56,7 +56,10 @@
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
   <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
   <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
-  
+
+  <!-- Hardware -->
+  <project path="kernel/configs" name="kernel_configs" remote="halcyon" />
+
   <!-- Hardware -->
   <project path="hardware/halcyon/compat" name="hardware_halcyon_compat" remote="halcyon" />
   <project path="hardware/halcyon/interfaces" name="hardware_halcyon_interfaces" remote="halcyon" />

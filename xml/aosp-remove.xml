@@ -97,6 +97,9 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
 
+  <!-- Kernel -->
+  <remove-project name="kernel/configs" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
