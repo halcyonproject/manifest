@@ -14,7 +14,7 @@
            revision="14.2" />
 
   <remote  name="halcyon-gt"
-           fetch="https://git.hlcyn.co/halcyonproject"
+           fetch="https://gitea.com/halcyonproject"
            revision="14.2" />
 
   <!-- Root -->
@@ -68,7 +68,7 @@
 
   <!-- Packages Apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
-  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gt" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
@@ -79,8 +79,8 @@
   
   <!-- Packages Modules -->
   <project path="packages/modules/adb" name="packages_modules_adb" remote="halcyon" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon-gt" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gt" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon-gitlab" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gitlab" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
