@@ -3,7 +3,7 @@
 
   <remote  name="halcyon"
            fetch="https://github.com/halcyonproject"
-           revision="14.2" />
+           revision="14.3" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
@@ -11,11 +11,11 @@
            
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
-           revision="14.2" />
+           revision="14.3" />
 
   <remote  name="halcyon-gt"
            fetch="https://gitea.com/halcyonproject"
-           revision="14.2" />
+           revision="14.3" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
