@@ -48,6 +48,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="halcyon" />
   <project path="external/libnl" name="external_libnl" remote="halcyon" />
   <project path="external/mksh" name="external_mksh" remote="halcyon" />
+  <project path="external/robolectric" name="external_robolectric" remote="halcyon" />
   <project path="external/selinux" name="external_selinux" remote="halcyon" />
   <project path="external/tinycompress" name="external_tinycompress" remote="halcyon" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" />
@@ -71,6 +72,7 @@
   <!-- Packages Apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
+  <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
