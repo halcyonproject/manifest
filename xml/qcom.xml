@@ -4,8 +4,8 @@
   <!-- Device -->
   <project remote="halcyon" path="device/qcom/sepolicy" name="device_qcom_sepolicy"/>
   <project remote="halcyon" path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" />
-  <project remote="halcyon" path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" revision="14.2-sm8450"/>
-  <project remote="halcyon" path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" revision="14.2-sm8550"/>
+  <project remote="halcyon" path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" revision="14.3-sm8450"/>
+  <project remote="halcyon" path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" revision="14.3-sm8550"/>
   <project remote="halcyon" path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" />
 
   <!-- External -->
