@@ -71,7 +71,7 @@
 
   <!-- Packages Apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
-  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" revision="14.2" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
   <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="halcyon" />
