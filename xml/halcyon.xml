@@ -50,6 +50,7 @@
   <project path="external/mksh" name="external_mksh" remote="halcyon" />
   <project path="external/robolectric" name="external_robolectric" remote="halcyon" />
   <project path="external/selinux" name="external_selinux" remote="halcyon" />
+  <project path="external/skia" name="external_skia" remote="halcyon" />
   <project path="external/tinycompress" name="external_tinycompress" remote="halcyon" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" />
   <project path="external/zstd" name="external_zstd" remote="halcyon" />
