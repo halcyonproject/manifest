@@ -103,6 +103,6 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon"/>
-  <project path="vendor/gms" name="vendor_gms" remote="halcyon-gt" clone-depth="1"/>
+  <project path="vendor/gms" name="vendor_gms" remote="halcyon-gitlab" clone-depth="1"/>
 
 </manifest>
