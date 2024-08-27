@@ -69,6 +69,7 @@
   <project path="hardware/halcyon/interfaces" name="hardware_halcyon_interfaces" remote="halcyon" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="halcyon" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="halcyon" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="halcyon" />
 
   <!-- Packages Apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
