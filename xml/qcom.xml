@@ -15,7 +15,8 @@
   <project remote="lineage" path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" />
 
   <!-- Hardware -->
-  <project remote="lineage" path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" />
+  <project remote="lineage" path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-21.0-caf" />
+  <project remote="lineage" path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-21.0-caf" />
   <project remote="halcyon" path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,qssi">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
