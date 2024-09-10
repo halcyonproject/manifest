@@ -42,6 +42,7 @@
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
 
   <!-- External -->
+  <project path="external/boringssl" name="external_boringssl" remote="halcyon" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="halcyon" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="halcyon" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
