@@ -16,4 +16,7 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.55"/>
   <project path="prebuilts/tools-halcyon" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
+  <!-- System -->
+  <project path="system/media" name="android_system_media" remote="lineage" />
+
 </manifest>
