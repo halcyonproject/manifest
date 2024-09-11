@@ -13,9 +13,13 @@
            fetch="https://gitlab.com/halcyonproject"
            revision="14.3" />
 
-  <remote  name="halcyon-gt"
-           fetch="https://gitea.com/halcyonproject"
-           revision="14.3" />
+  <remote  name="halcyon-devices"
+           fetch="https://github.com/halcyonlv"
+           revision="ursinia" />
+
+  <remote  name="halcyon-blobs"
+           fetch="https://gitlab.com/halcyonproject/blobs"
+           revision="ursinia" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
