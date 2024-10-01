@@ -114,6 +114,7 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Kernel -->
   <remove-project name="kernel/configs" />
