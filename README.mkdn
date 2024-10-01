@@ -1,4 +1,4 @@
-# Halcyon - Ursinia
+# Halcyon - Viola Alpha
 
 Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
 
@@ -10,7 +10,7 @@ Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
 
 ### Downloading Halcyon source code
 ```
-repo init -u https://github.com/halcyonproject/manifest -b 14.3 --git-lfs
+repo init -u https://github.com/halcyonproject/manifest -b 15.0 --git-lfs
 ```
 ```
 repo sync -j$(nproc --all) --force-sync

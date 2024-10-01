@@ -1469,8 +1469,8 @@
   </project>
   <!-- END open-source projects -->
 
-    <!-- Remove unused AOSP repos
-  <include name="xml/aosp-remove.xml" /> -->
+  <!-- Remove unused AOSP repos  -->
+  <include name="xml/aosp-remove.xml" />
 
   <!-- Track Halcyon and other projects repository -->
   <include name="xml/halcyon.xml" />

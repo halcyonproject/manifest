@@ -3,24 +3,24 @@
 
   <remote  name="halcyon"
            fetch="https://github.com/halcyonproject"
-           revision="14.3" />
-
+           revision="15.0" />
+           
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
            revision="lineage-21.0" />
            
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
-           revision="14.3" />
+           revision="15.0" />
 
   <remote  name="halcyon-devices"
            fetch="https://github.com/halcyonlv"
-           revision="ursinia" />
+           revision="viola" />
 
   <remote  name="halcyon-blobs"
            fetch="https://gitlab.com/halcyonproject/blobs"
-           revision="ursinia" />
-
+           revision="viola" />
+  
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -39,6 +39,7 @@
 
   <project path="art" name="art" remote="halcyon" />
   <project path="bionic" name="bionic" remote="halcyon" />
+  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
   <project path="libcore" name="libcore" remote="halcyon" />
   
@@ -47,6 +48,7 @@
 
   <!-- External -->
   <project path="external/boringssl" name="external_boringssl" remote="halcyon" />
+  <project path="external/dtc" name="external_dtc" remote="halcyon" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="halcyon" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="halcyon" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
@@ -77,11 +79,7 @@
 
   <!-- Packages Apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
-  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
-  <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
-  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="halcyon" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
   
   <!-- Packages Libraries -->
@@ -98,6 +96,7 @@
   <project path="system/core" name="system_core" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="halcyon" />
+  <project path="system/media" name="system_media" remote="halcyon" />
   <project path="system/netd" name="system_netd" remote="halcyon" />
   <project path="system/security" name="system_security" remote="halcyon" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
@@ -108,6 +107,5 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon"/>
-  <project path="vendor/gms" name="vendor_gms" remote="halcyon-gitlab" clone-depth="1"/>
 
 </manifest>
