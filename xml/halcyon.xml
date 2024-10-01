@@ -20,7 +20,15 @@
   <remote  name="halcyon-blobs"
            fetch="https://gitlab.com/halcyonproject/blobs"
            revision="viola" />
+
+  <remote  name="github"
+           fetch="https://github.com"
+           revision="viola" />
   
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"
+           revision="viola" />
+
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
     <copyfile src="core/root.mk" dest="Makefile" />
