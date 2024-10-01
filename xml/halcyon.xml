@@ -77,11 +77,12 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="halcyon" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="halcyon" />
 
-  <!-- Packages Apps -->
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
   
+  <!-- Packages Services -->
+  <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" />
+
   <!-- Packages Libraries -->
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
   <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
