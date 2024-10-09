@@ -6,6 +6,7 @@
   <project remote="halcyon" path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" />
   <project remote="halcyon" path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" revision="15.0-sm8450"/>
   <project remote="halcyon" path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" revision="15.0-sm8550"/>
+  <project remote="halcyon" path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr" revision="15.0-sm8650"/>
   <project remote="halcyon" path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" />
 
   <!-- Hardware -->
@@ -37,6 +38,9 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
     <!-- add guards for Pixel kernel modules -->
     <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
   </project>
@@ -46,13 +50,20 @@
   <project remote="halcyon" path="hardware/qcom-caf/sm8450/audio/primary-hal" name="hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="15.0-sm8450" />
   <project remote="halcyon" path="hardware/qcom-caf/sm8450/display" name="hardware_qcom_sm8450_display" groups="qcom" revision="15.0-sm8450" />
   <project remote="halcyon" path="hardware/qcom-caf/sm8450/media" name="hardware_qcom_sm8450_media" groups="qcom,waipio-vendor" revision="15.0-sm8450" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="15.0-sm8650" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="15.0-sm8650" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="15.0-sm8650" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="15.0-sm8650" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="15.0-sm8650" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8650/display" name="hardware_qcom-caf_sm8650_display" groups="qcom" revision="15.0" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8650/media" name="hardware_qcom-caf_sm8650_media" groups="qcom,waipio-vendor" revision="15.0" />
   <project remote="halcyon" path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom,kailua-vendor" />
 
   <!-- Vendor -->
   <project remote="halcyon" path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
   <project remote="halcyon" path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" groups="qcom,lahaina" />
   <project remote="halcyon" path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" />
-  
+
   <!-- Tracked from LineageOS -->
 
   <!-- External -->
