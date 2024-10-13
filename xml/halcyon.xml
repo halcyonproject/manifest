@@ -103,7 +103,9 @@
   <!-- Packages Modules -->
   <project path="packages/modules/adb" name="packages_modules_adb" remote="halcyon" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
+  <project path="packages/modules/common" name="packages_modules_common" remote="halcyon" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gitlab" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
