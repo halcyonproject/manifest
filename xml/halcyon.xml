@@ -32,6 +32,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="build/release" name="build_release" remote="halcyon" />
   <project path="build/soong" name="build_soong" remote="halcyon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -92,6 +93,8 @@
   <project path="packages/modules/adb" name="packages_modules_adb" remote="halcyon" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gitlab" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="halcyon" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
