@@ -45,13 +45,6 @@
     <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
   </project>
 
-  <project remote="halcyon" path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="15.0-sm8650" />
-  <project remote="halcyon" path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="15.0-sm8650" />
-  <project remote="halcyon" path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="15.0-sm8650" />
-  <project remote="halcyon" path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="15.0-sm8650" />
-  <project remote="halcyon" path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="15.0-sm8650" />
-  <project remote="halcyon" path="hardware/qcom-caf/sm8650/display" name="hardware_qcom-caf_sm8650_display" groups="qcom" revision="15.0" />
-  <project remote="halcyon" path="hardware/qcom-caf/sm8650/media" name="hardware_qcom-caf_sm8650_media" groups="qcom,waipio-vendor" revision="15.0" />
   <project remote="halcyon" path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom,kailua-vendor" />
 
   <!-- Tracked from LineageOS -->
