@@ -55,16 +55,22 @@
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
 
   <!-- External -->
+  <project path="external/bash" name="external_bash" remote="halcyon" />
   <project path="external/boringssl" name="external_boringssl" remote="halcyon" />
   <project path="external/dtc" name="external_dtc" remote="halcyon" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="halcyon" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="halcyon" />
   <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="halcyon" />
   <project path="external/libcxx" name="external_libcxx" remote="halcyon" />
+  <project path="external/libncurses" name="external_libncurses" remote="halcyon" />
   <project path="external/libnl" name="external_libnl" remote="halcyon" />
   <project path="external/mksh" name="external_mksh" remote="halcyon" />
+  <project path="external/nano" name="external_nano" remote="halcyon" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="halcyon" />
   <project path="external/robolectric" name="external_robolectric" remote="halcyon" />
   <project path="external/selinux" name="external_selinux" remote="halcyon" />
+  <project path="external/setupcompat" name="external_setupcompat" remote="halcyon" />
+  <project path="external/setupdesign" name="external_setupdesign" remote="halcyon" />
   <project path="external/skia" name="external_skia" remote="halcyon" />
   <project path="external/tinycompress" name="external_tinycompress" remote="halcyon" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" />
@@ -97,6 +103,7 @@
   <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
   
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
