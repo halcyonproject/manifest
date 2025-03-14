@@ -5,6 +5,7 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/release" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/bootable/deprecated-ota" />
@@ -76,6 +77,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
@@ -120,6 +122,7 @@
   <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />

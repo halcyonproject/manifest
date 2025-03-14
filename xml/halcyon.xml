@@ -40,6 +40,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="build/release" name="build_release" remote="halcyon" />
   <project path="build/soong" name="build_soong" remote="halcyon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -57,6 +58,7 @@
   <!-- External -->
   <project path="external/bash" name="external_bash" remote="halcyon" />
   <project path="external/boringssl" name="external_boringssl" remote="halcyon" />
+  <project path="external/dng_sdk" name="external_dng_sdk" remote="halcyon" />
   <project path="external/dtc" name="external_dtc" remote="halcyon" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="halcyon" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="halcyon" />
@@ -107,6 +109,9 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
   
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
+
+  <!-- Packages providers -->
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="halcyon" />
   
   <!-- Packages Services -->
   <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" />
