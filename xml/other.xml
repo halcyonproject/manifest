@@ -16,4 +16,6 @@
   <project path="prebuilts/tools-halcyon" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- System -->
+  <project path="system/nfc" name="system_nfc" remote="halcyon" />
+
 </manifest>

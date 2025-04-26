@@ -3,15 +3,15 @@
 
   <remote  name="halcyon"
            fetch="https://github.com/halcyonproject"
-           revision="15.1" />
-           
+           revision="15.2" />
+
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="lineage-22.1" />
+           revision="lineage-22.2" />
            
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
-           revision="15.1" />
+           revision="15.2" />
 
   <remote  name="halcyon-devices"
            fetch="https://github.com/halcyonlv"
