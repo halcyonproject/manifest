@@ -114,6 +114,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="halcyon" />
   
   <!-- Packages Services -->
+  <project path="packages/services/QuickTap" name="packages_services_QuickTap" remote="halcyon" />
   <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" />
 
   <!-- Packages Libraries -->
