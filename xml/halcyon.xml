@@ -13,6 +13,10 @@
            fetch="https://gitlab.com/halcyonproject"
            revision="16.0" />
 
+  <remote  name="gitea"
+           fetch="https://gitea.com"
+           revision="16.0" />
+  
   <remote  name="github"
            fetch="https://github.com"
            revision="bloom" />
@@ -107,5 +111,6 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon"/>
+  <project path="vendor/gms" name="halcyonproject/vendor_gms" remote="gitea" />
 
 </manifest>
