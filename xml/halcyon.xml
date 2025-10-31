@@ -50,6 +50,7 @@
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
 
   <!-- External -->
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="halcyon" />
   <project path="external/setupcompat" name="external_setupcompat" remote="halcyon" />
   <project path="external/setupdesign" name="external_setupdesign" remote="halcyon" />
 
@@ -57,6 +58,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
   <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
   <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="halcyon" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="halcyon" />
 
   <!-- Hardware -->
