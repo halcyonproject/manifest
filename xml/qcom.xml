@@ -78,6 +78,13 @@
   <project remote="lineage" path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pakala-vendor" />
   <project remote="lineage" path="hardware/qcom-caf/thermal-legacy-um" name="android_hardware_qcom_thermal" groups="qcom,lanai-vendor" revision="lineage-23.0-legacy-um" />
   <project remote="lineage" path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,pakala-wlan" revision="lineage-23.0-caf" />
+  <project remote="lineage" path="hardware/qcom-caf/sm8650/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="lineage-23.0-caf-sm8650" />
+  <project remote="lineage" path="hardware/qcom-caf/sm8650/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.0-caf-sm8650" />
+  <project remote="lineage" path="hardware/qcom-caf/sm8650/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="lineage-23.0-caf-sm8650" />
+  <project remote="lineage" path="hardware/qcom-caf/sm8650/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-23.0-caf-sm8650" />
+  <project remote="lineage" path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-23.0-caf-sm8650" />
+  <project remote="lineage" path="hardware/qcom-caf/sm8650/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-23.0-caf-sm8650" />
+  <project remote="lineage" path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.0-caf-sm8650" />
 
   <!-- Vendor -->
   <project remote="lineage" path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
