@@ -36,6 +36,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="build/release" name="build_release" remote="halcyon" />
   <project path="build/soong" name="build_soong" remote="halcyon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
