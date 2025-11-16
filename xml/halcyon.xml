@@ -41,6 +41,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="art" remote="halcyon" />
   <project path="bionic" name="bionic" remote="halcyon" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
@@ -99,8 +100,18 @@
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gitlab" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="halcyon" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
+
+  <!-- Packages Providers -->
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="halcyon" />
+
+  <!-- Packages Providers -->
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="halcyon" />
 
   <!-- System -->
+  <project path="system/apex" name="system_apex" remote="halcyon" />
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
   <project path="system/core" name="system_core" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
