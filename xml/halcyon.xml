@@ -5,6 +5,10 @@
            fetch="https://github.com/halcyonproject"
            revision="16.0" />
 
+  <remote  name="halcyon-blobs"
+           fetch="https://git.hlcyn.co/halcyonlv"
+           revision="16.0" />
+
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
            revision="lineage-23.0" />
