@@ -2,31 +2,42 @@
 <manifest>
 
   <!-- Device -->
+  <!-- TO DO: Track from LineageOS after fixes merged -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
   <!-- External -->
-  <project path="external/avb" name="android_external_avb" remote="lineage" revision="refs/changes/19/433319/1" />
+  <project path="external/avb" name="android_external_avb" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
-  <project path="external/cronet" name="android_external_cronet" remote="lineage" revision="refs/changes/20/433320/1" />
-  <project path="external/dtc" name="android_external_dtc" remote="lineage" revision="refs/changes/34/433334/1" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" revision="refs/changes/37/433337/2" />
+  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" revision="refs/changes/44/433344/2" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
-  <project path="external/mksh" name="android_external_mksh" remote="lineage" revision="refs/changes/47/433347/1" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" revision="refs/changes/56/433356/1" />
+  <project path="external/setupcompat" name="android_external_setupcompat" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
 
   <!-- Hardware -->
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+  <project path="hardware/st/nfc" name="android_hardware_st_nfc" remote="lineage" />
+
+  <!-- Kernel -->
+  <project path="kernel/configs" name="android_kernel_configs" remote="lineage" />
 
   <!-- Packages -->
+  <project path="packages/apps/EuiccPolicy" name="android_packages_apps_EuiccPolicy" remote="lineage" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
+  <project path="packages/modules/common" name="android_packages_modules_common" remote="lineage" />
+  <project path="packages/modules/UprobeStats" name="android_packages_modules_UprobeStats" remote="lineage" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Prebuilt -->
@@ -38,7 +49,14 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.55"/>
   <project path="prebuilts/tools-halcyon" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
+  <!-- System -->
+  <project path="system/logging" name="android_system_logging" remote="lineage" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
+
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
+  <!-- Vendor -->
+  <project path="vendor/apn" name="android_vendor_apn" remote="lineage" revision="main" />
 
 </manifest>

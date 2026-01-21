@@ -3,31 +3,19 @@
 
   <remote  name="halcyon"
            fetch="https://github.com/halcyonproject"
-           revision="16.0" />
-
-  <remote  name="halcyon-blobs"
-           fetch="https://git.hlcyn.co/halcyonlv"
-           revision="16.0" />
+           revision="16.2" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="lineage-23.0" />
+           revision="lineage-23.2" />
            
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
-           revision="16.0" />
-
+           revision="16.2" />
+           
   <remote  name="gitea"
            fetch="https://gitea.com"
            revision="16.0" />
-  
-  <remote  name="github"
-           fetch="https://github.com"
-           revision="bloom" />
-  
-  <remote  name="gitlab"
-           fetch="https://gitlab.com"
-           revision="bloom" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
@@ -40,13 +28,11 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/release" name="build_release" remote="halcyon" />
   <project path="build/soong" name="build_soong" remote="halcyon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="art" name="art" remote="halcyon" />
   <project path="bionic" name="bionic" remote="halcyon" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
@@ -57,28 +43,16 @@
 
   <!-- External -->
   <project path="external/bouncycastle" name="external_bouncycastle" remote="halcyon" />
-  <project path="external/setupcompat" name="external_setupcompat" remote="halcyon" />
-  <project path="external/setupdesign" name="external_setupdesign" remote="halcyon" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
   <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
   <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="halcyon" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="halcyon" />
 
   <!-- Hardware -->
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="halcyon" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="halcyon" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="halcyon" />
-
-  <!-- Kernel -->
-  <project path="kernel/configs" name="kernel_configs" remote="halcyon" />
-
-  <!-- Packages Libraries -->
-  <project path="packages/libraries/BlurView" name="packages_libraries_BlurView" remote="halcyon" />
-  <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
-  <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
@@ -89,38 +63,28 @@
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="halcyon" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="halcyon" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="halcyon" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="halcyon" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="halcyon" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="halcyon" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="halcyon" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
 
-  <!-- Packages Services -->
-  <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" />
+  <!-- Packages Libraries -->
+  <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
+  <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gitlab" />
-  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="halcyon" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
 
-  <!-- Packages Providers -->
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="halcyon" />
-
-  <!-- Packages Providers -->
+  <!-- Packages Services -->
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="halcyon" />
 
   <!-- System -->
-  <project path="system/apex" name="system_apex" remote="halcyon" />
-  <project path="system/bpf" name="system_bpf" remote="halcyon" />
   <project path="system/core" name="system_core" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
-  <project path="system/libhwbinder" name="system_libhwbinder" remote="halcyon" />
   <project path="system/media" name="system_media" remote="halcyon" />
   <project path="system/security" name="system_security" remote="halcyon" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
@@ -129,7 +93,7 @@
 
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
-  <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon"/>
+  <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon" />
   <project path="vendor/gms" name="halcyonproject/vendor_gms" remote="gitea" />
 
 </manifest>
