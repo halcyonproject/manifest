@@ -43,6 +43,7 @@
 
   <!-- External -->
   <project path="external/bouncycastle" name="external_bouncycastle" remote="halcyon" />
+  <project path="external/robolectric" name="external_robolectric" remote="halcyon" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
@@ -65,6 +66,7 @@
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="halcyon" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="halcyon" />
+  <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="halcyon" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="halcyon" />
