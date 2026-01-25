@@ -69,7 +69,9 @@
   <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="halcyon" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="halcyon" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="halcyon" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
 
   <!-- Packages Libraries -->
