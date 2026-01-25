@@ -73,6 +73,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
 
   <!-- Packages Libraries -->
+  <project path="packages/libraries/BlurView" name="packages_libraries_BlurView" remote="halcyon" />
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
   <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
 
