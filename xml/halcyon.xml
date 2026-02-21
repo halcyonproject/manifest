@@ -88,6 +88,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="halcyon" />
 
   <!-- System -->
+  <project path="system/bpf" name="system_bpf" remote="halcyon" />
   <project path="system/core" name="system_core" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
   <project path="system/media" name="system_media" remote="halcyon" />
