@@ -40,6 +40,7 @@
 
   <!-- Device -->
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="halcyon" />
 
   <!-- External -->
   <project path="external/bouncycastle" name="external_bouncycastle" remote="halcyon" />
@@ -64,6 +65,7 @@
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="halcyon" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="halcyon" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
+  <project path="packages/apps/Freeform" name="packages_apps_Freeform" remote="halcyon" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="halcyon" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="halcyon" />
   <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />

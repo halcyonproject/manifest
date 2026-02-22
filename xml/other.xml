@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Device -->
-  <!-- TO DO: Track from LineageOS after fixes merged -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
-
   <!-- External -->
   <project path="external/avb" name="android_external_avb" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
