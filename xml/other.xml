@@ -4,11 +4,13 @@
   <!-- External -->
   <project path="external/avb" name="android_external_avb" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="lineage" />
   <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/libjxl" name="android_external_libjxl" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
