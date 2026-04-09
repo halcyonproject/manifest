@@ -18,7 +18,6 @@
   <project path="external/setupcompat" name="android_external_setupcompat" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
 
   <!-- Hardware -->

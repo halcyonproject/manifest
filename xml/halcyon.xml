@@ -45,6 +45,7 @@
   <!-- External -->
   <project path="external/bouncycastle" name="external_bouncycastle" remote="halcyon" />
   <project path="external/robolectric" name="external_robolectric" remote="halcyon" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
