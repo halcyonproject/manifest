@@ -15,7 +15,7 @@
            
   <remote  name="gitea"
            fetch="https://gitea.com"
-           revision="16.0" />
+           revision="16.2" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
