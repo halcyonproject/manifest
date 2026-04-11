@@ -33,6 +33,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="art" remote="halcyon" />
   <project path="bionic" name="bionic" remote="halcyon" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
