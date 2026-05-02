@@ -101,6 +101,7 @@
   <project path="system/core" name="system_core" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
   <project path="system/media" name="system_media" remote="halcyon" />
+  <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" remote="halcyon" />
   <project path="system/security" name="system_security" remote="halcyon" />
   <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
   <project path="system/update_engine" name="system_update_engine" remote="halcyon" />
