@@ -17,4 +17,4 @@ repo sync -j$(nproc --all) --force-sync
 ```
 
 ### Building Halcyon
-Please visit our Wiki for [Building guide](https://wiki.hlcyn.co/development/building/downloading_source).
+Please visit our Wiki for [Building guide](https://wiki.hlcyn.org/development/building/downloading_source).
