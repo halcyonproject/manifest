@@ -5,6 +5,7 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/release" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/bootable/recovery" />
@@ -38,9 +39,11 @@
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libjxl" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/robolectric" />
   <remove-project name="platform/external/setupcompat" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
@@ -63,11 +66,13 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -78,13 +83,16 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/common" />
+  <remove-project name="platform/packages/modules/Nfc" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/UprobeStats" />
   <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
+  <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
   <!-- System -->
