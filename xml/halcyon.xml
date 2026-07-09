@@ -13,8 +13,8 @@
            fetch="https://gitlab.com/halcyonproject"
            revision="16.2" />
            
-  <remote  name="gitea"
-           fetch="https://gitea.com"
+  <remote  name="codeberg"
+           fetch="https://codeberg.org"
            revision="16.2" />
 
   <!-- Root -->
@@ -111,6 +111,6 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon" />
-  <project path="vendor/gms" name="halcyonproject/vendor_gms" remote="gitea" />
+  <project path="vendor/gms" name="halcyonproject/vendor_gms" remote="codeberg" />
 
 </manifest>
