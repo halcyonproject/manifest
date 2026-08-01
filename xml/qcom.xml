@@ -10,6 +10,9 @@
   <project remote="lineage" path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
   <project remote="lineage" path="device/qcom/sepolicy_vndr/sm8750" name="android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
 
+  <!-- External -->
+  <project remote="lineage" path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" />
+  
   <project remote="lineage" path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom"  /> 
   <project remote="lineage" path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pakala-vendor" revision="lineage-23.2-caf" />
   <project remote="lineage" path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-23.2-caf" />
