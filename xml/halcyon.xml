@@ -12,10 +12,6 @@
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
            revision="16.2" />
-           
-  <remote  name="codeberg"
-           fetch="https://codeberg.org"
-           revision="16.2" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
@@ -111,6 +107,6 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon" />
-  <project path="vendor/gms" name="halcyonproject/vendor_gms" remote="codeberg" />
+  <project path="vendor/gms" name="vendor_gms" remote="halcyon" />
 
 </manifest>
