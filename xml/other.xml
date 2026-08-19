@@ -11,11 +11,16 @@
   <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/freetype" name="android_external_freetype" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/libcupsfilters" name="android_external_libcupsfilters" remote="lineage" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libjxl" name="android_external_libjxl" remote="lineage" />
+  <project path="external/libopenapv" name="android_external_libopenapv" remote="lineage" />
   <project path="external/libpng" name="android_external_libpng" remote="lineage" />
+  <project path="external/libppd" name="android_external_libppd" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
@@ -30,6 +35,7 @@
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+  <project path="hardware/nxp/secure_element" name="android_hardware_nxp_secure_element" remote="lineage" />
   <project path="hardware/st/nfc" name="android_hardware_st_nfc" remote="lineage" />
 
   <!-- Kernel -->
@@ -42,8 +48,10 @@
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="lineage" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
   <project path="packages/modules/common" name="android_packages_modules_common" remote="lineage" />
+  <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" remote="lineage" />
   <project path="packages/modules/Nfc" name="android_packages_modules_Nfc" remote="lineage" />
   <project path="packages/modules/UprobeStats" name="android_packages_modules_UprobeStats" remote="lineage" />
+  <project path="packages/modules/Uwb" name="android_packages_modules_Uwb" remote="lineage" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="lineage" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lineage" />
@@ -60,6 +68,7 @@
   <project path="prebuilts/tools-halcyon" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- System -->
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="lineage" />
   <project path="system/logging" name="android_system_logging" remote="lineage" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
 
