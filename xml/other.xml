@@ -19,10 +19,15 @@
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="lineage" revision="lineage-24.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" revision="lineage-23.2" remote="lineage" />
+  <project path="external/freetype" name="android_external_freetype" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" revision="lineage-23.2" remote="lineage" />
+  <project path="external/libcupsfilters" name="android_external_libcupsfilters" remote="lineage" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="lineage" />
   <project path="external/libjxl" name="android_external_libjxl" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" revision="lineage-23.2" remote="lineage" />
+  <project path="external/libopenapv" name="android_external_libopenapv" remote="lineage" />
+  <project path="external/libppd" name="android_external_libppd" remote="lineage" />
   <project path="external/nano" name="android_external_nano" revision="lineage-23.2" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" revision="lineage-23.2" remote="lineage" />
@@ -40,12 +45,15 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+  <project path="hardware/nxp/secure_element" name="android_hardware_nxp_secure_element" remote="lineage" />
   <project path="hardware/st/nfc" name="android_hardware_st_nfc" remote="lineage" />
 
   <!-- Packages -->
   <project path="packages/apps/EuiccPolicy" name="android_packages_apps_EuiccPolicy" revision="lineage-23.2" remote="lineage" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" revision="lineage-23.2" remote="lineage" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
+  <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" remote="lineage" />
+  <project path="packages/modules/Uwb" name="android_packages_modules_Uwb" remote="lineage" />
   <project path="packages/services/DeviceAsWebcam" name="android_packages_services_DeviceAsWebcam" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-23.2" remote="lineage" />
 
@@ -60,6 +68,7 @@
 
   <!-- System -->
   <project path="system/bpf" name="android_system_bpf" remote="lineage" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="lineage" />
   <project path="system/memory/libion" name="android_system_memory_libion" remote="lineage" />
 
   <!-- Tools -->
