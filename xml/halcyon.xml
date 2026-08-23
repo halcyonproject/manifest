@@ -75,6 +75,9 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="halcyon" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
 
+  <!-- Packages -->
+  <project path="packages/halcyon/apps/Rewind" name="packages_halcyon_apps_Rewind" remote="halcyon" />
+
   <!-- Packages Libraries -->
   <project path="packages/libraries/BlurView" name="packages_libraries_BlurView" remote="halcyon" />
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
