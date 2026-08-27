@@ -1,81 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Build -->
-  <project path="build/release" name="android_build_release" remote="lineage" />
+  <!-- Device -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
   <!-- External -->
   <project path="external/avb" name="android_external_avb" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
-  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="lineage" />
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="lineage" revision="main">
+    <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="lineage" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="lineage" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" remote="lineage" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="lineage" revision="main" />
   <project path="external/dtc" name="android_external_dtc" remote="lineage" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="lineage" revision="lineage-24.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/freetype" name="android_external_freetype" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
-  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libcupsfilters" name="android_external_libcupsfilters" remote="lineage" />
   <project path="external/libhevc" name="android_external_libhevc" remote="lineage" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libjxl" name="android_external_libjxl" remote="lineage" />
-  <project path="external/libopenapv" name="android_external_libopenapv" remote="lineage" />
-  <project path="external/libpng" name="android_external_libpng" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libppd" name="android_external_libppd" remote="lineage" />
-  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
-  <project path="external/setupcompat" name="android_external_setupcompat" remote="lineage" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="lineage" />
+  <project path="external/openssh" name="android_external_openssh" remote="lineage" />
+  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
   <project path="hardware/nxp/secure_element" name="android_hardware_nxp_secure_element" remote="lineage" />
   <project path="hardware/st/nfc" name="android_hardware_st_nfc" remote="lineage" />
 
-  <!-- Kernel -->
-  <project path="kernel/configs" name="android_kernel_configs" remote="lineage" />
-
   <!-- Packages -->
-  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="lineage" />
   <project path="packages/apps/EuiccPolicy" name="android_packages_apps_EuiccPolicy" remote="lineage" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
-  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="lineage" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
-  <project path="packages/modules/common" name="android_packages_modules_common" remote="lineage" />
-  <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" remote="lineage" />
   <project path="packages/modules/Nfc" name="android_packages_modules_Nfc" remote="lineage" />
-  <project path="packages/modules/UprobeStats" name="android_packages_modules_UprobeStats" remote="lineage" />
   <project path="packages/modules/Uwb" name="android_packages_modules_Uwb" remote="lineage" />
-  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="lineage" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lineage" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
   <project path="packages/services/DeviceAsWebcam" name="android_packages_services_DeviceAsWebcam" remote="lineage" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
-  <!-- Prebuilt -->
-  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" remote="lineage" />
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage"  />
-  <project path="prebuilts/gcc/linux-x86/aarch64n/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" remote="lineage" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" remote="lineage" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" remote="lineage"/>
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.55"/>
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="lineage" revision="lineage-20.0" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="main-kernel-2025" />
   <project path="prebuilts/tools-halcyon" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- System -->
-  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="lineage" />
-  <project path="system/logging" name="android_system_logging" remote="lineage" />
-  <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
+  <project path="system/bpf" name="android_system_bpf" remote="lineage" />
+  <project path="system/memory/libion" name="android_system_memory_libion" remote="lineage" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
   <!-- Vendor -->
-  <project path="vendor/apn" name="android_vendor_apn" remote="lineage" revision="main" />
+  <project path="vendor/apn" name="android_vendor_apn" revision="main" remote="lineage" />
 
 </manifest>
