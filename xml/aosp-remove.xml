@@ -85,6 +85,7 @@
   <remove-project name="platform/packages/modules/Nfc" />
   <remove-project name="platform/packages/modules/Uwb" />
   <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
   <remove-project name="platform/packages/services/Telephony" />
