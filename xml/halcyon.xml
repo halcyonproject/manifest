@@ -18,7 +18,7 @@
            revision="16.2" />
 
   <!-- Root -->
-  <project path="build/make" name="build_make" remote="halcyon" >
+  <project path="build/make" name="build_make" remote="hlcyn" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -28,38 +28,38 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="build_soong" remote="halcyon" >
+  <project path="build/soong" name="build_soong" remote="hlcyn" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="art" name="art" remote="halcyon" />
-  <project path="bionic" name="bionic" remote="halcyon" />
-  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="halcyon" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
-  <project path="manifest" name="manifest" remote="halcyon" />
+  <project path="art" name="art" remote="hlcyn" />
+  <project path="bionic" name="bionic" remote="hlcyn" />
+  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="hlcyn" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="hlcyn" />
+  <project path="manifest" name="manifest" remote="hlcyn" />
 
   <!-- Device -->
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="hlcyn" />
 
   <!-- External -->
-  <project path="external/bouncycastle" name="external_bouncycastle" remote="halcyon" />
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="hlcyn" />
   <project path="external/robolectric" name="external_robolectric" remote="hlcyn" />
   <project path="external/setupcompat" name="external_setupcompat" remote="hlcyn" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="hlcyn" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
-  <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
+  <project path="frameworks/av" name="frameworks_av" remote="hlcyn" />
+  <project path="frameworks/base" name="frameworks_base" remote="hlcyn" />
   <project path="frameworks/halcyon" name="frameworks_halcyon" remote="hlcyn" />
-  <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="halcyon" />
+  <project path="frameworks/native" name="frameworks_native" remote="hlcyn" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="hlcyn" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="halcyon" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="hlcyn" />
 
   <!-- Kernel -->
-  <project path="kernel/configs" name="kernel_configs" remote="halcyon" />
+  <project path="kernel/configs" name="kernel_configs" remote="hlcyn" />
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="hlcyn" />
@@ -74,7 +74,7 @@
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="hlcyn" />
   <project path="packages/apps/Nest" name="packages_apps_Nest" remote="hlcyn" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="hlcyn" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="hlcyn" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="hlcyn" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="hlcyn" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="hlcyn" />
@@ -86,31 +86,31 @@
   <project path="packages/libraries/BlurView" name="packages_libraries_BlurView" remote="hlcyn" />
 
   <!-- Packages Modules -->
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="hlcyn" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="hlcyn" />
 
   <!-- Packages Providers -->
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="halcyon" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="hlcyn" />
 
   <!-- Packages Services -->
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="halcyon" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="hlcyn" />
 
   <!-- System -->
-  <project path="system/core" name="system_core" remote="halcyon" />
-  <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="halcyon" />
-  <project path="system/libziparchive" name="system_libziparchive" remote="halcyon" />
-  <project path="system/logging" name="system_logging" remote="halcyon" />
-  <project path="system/media" name="system_media" remote="halcyon" />
-  <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" remote="halcyon" />
-  <project path="system/netd" name="system_netd" remote="halcyon" />
-  <project path="system/security" name="system_security" remote="halcyon" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="halcyon" />
-  <project path="system/update_engine" name="system_update_engine" remote="halcyon" />
-  <project path="system/vold" name="system_vold" remote="halcyon" />
-  <project path="system/zygote" name="system_zygote" remote="halcyon" />
+  <project path="system/core" name="system_core" remote="hlcyn" />
+  <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="hlcyn" />
+  <project path="system/libziparchive" name="system_libziparchive" remote="hlcyn" />
+  <project path="system/logging" name="system_logging" remote="hlcyn" />
+  <project path="system/media" name="system_media" remote="hlcyn" />
+  <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" remote="hlcyn" />
+  <project path="system/netd" name="system_netd" remote="hlcyn" />
+  <project path="system/security" name="system_security" remote="hlcyn" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="hlcyn" />
+  <project path="system/update_engine" name="system_update_engine" remote="hlcyn" />
+  <project path="system/vold" name="system_vold" remote="hlcyn" />
+  <project path="system/zygote" name="system_zygote" remote="hlcyn" />
 
   <!-- Vendor -->
-  <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
+  <project path="vendor/halcyon" name="vendor_halcyon" remote="hlcyn" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="hlcyn" />
   <project path="vendor/gms" name="vendor_gms" remote="halcyon-gitlab" />
 
