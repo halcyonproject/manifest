@@ -18,7 +18,7 @@
   <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="lineage" revision="lineage-24.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" revision="lineage-23.2" remote="lineage" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/freetype" name="android_external_freetype" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" revision="lineage-23.2" remote="lineage" />
