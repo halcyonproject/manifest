@@ -33,6 +33,7 @@
   <project path="bionic" name="bionic" remote="halcyon" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
+  <project path="development" name="development" remote="halcyon" />
   <project path="manifest" name="manifest" remote="halcyon" />
 
   <!-- Device -->
