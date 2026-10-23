@@ -11,7 +11,7 @@
            
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
-           revision="16.2" />
+           revision="17.0" />
 
   <!-- Root -->
   <project path="build/make" name="build_make" remote="halcyon" >
