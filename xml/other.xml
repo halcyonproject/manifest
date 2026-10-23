@@ -69,6 +69,7 @@
 
   <!-- System -->
   <project path="system/bpf" name="android_system_bpf" remote="lineage" />
+  <project path="system/memory/libdmabufheap" name="android_system_memory_libdmabufheap" remote="lineage" />
   <project path="system/memory/libion" name="android_system_memory_libion" remote="lineage" />
 
   <!-- Tools -->
