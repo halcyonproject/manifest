@@ -17,7 +17,7 @@
   <project remote="lineage" path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom"  /> 
   <project remote="lineage" path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pakala-vendor" revision="lineage-24.0-caf" />
   <project remote="lineage" path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-23.2-caf" />
-  <project remote="lineage" path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" >
+  <project remote="halcyon" path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -50,9 +50,9 @@
   <project remote="lineage" path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-24.0-caf-sm8150" />
   <project remote="lineage" path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-24.0-caf-sm8150" />
   <project remote="lineage" path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-24.0-caf-sm8150" />
-  <project remote="lineage" path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-24.0-caf-sm8250" />
-  <project remote="lineage" path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-24.0-caf-sm8250" />
-  <project remote="lineage" path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,kona" revision="lineage-24.0-caf-sm8250" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" groups="qcom,kona" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" groups="qcom" />
+  <project remote="halcyon" path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" groups="qcom,kona" />
   <project remote="lineage" path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-24.0-caf-sm8350" />
   <project remote="lineage" path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-24.0-caf-sm8350" />
   <project remote="lineage" path="hardware/qcom-caf/sm8450/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-24.0-caf-sm8450" />
