@@ -79,6 +79,8 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
 
   <!-- Packages halcyon -->
+  <project path="packages/halcyon/apps/FMTuner" name="packages_halcyon_apps_FMTuner" remote="halcyon" />
+  <project path="packages/halcyon/apps/Kilas" name="packages_halcyon_apps_Kilas" remote="halcyon" />
   <project path="packages/halcyon/apps/Updater" name="packages_halcyon_apps_Updater" remote="halcyon" />
 
   <!-- Packages Libraries -->
