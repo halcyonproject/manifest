@@ -35,6 +35,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
+  <project path="external/selinux" name="android_external_selinux" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/tremolo" name="android_external_tremolo" remote="lineage" />
@@ -42,7 +43,12 @@
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="lineage" />
+
   <!-- Hardware -->
+  <project path="hardware/google/camera" name="android_hardware_google_camera" remote="lineage" />
+  <project path="hardware/google/interfaces" name="android_hardware_google_interfaces" remote="lineage" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />

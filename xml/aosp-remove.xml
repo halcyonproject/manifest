@@ -47,6 +47,7 @@
   <remove-project name="platform/external/libppd" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/robolectric" />
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/tremolo" />
@@ -56,11 +57,14 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/hardware/interfaces" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/google/camera" />
+  <remove-project name="platform/hardware/google/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/nxp/secure_element" />
